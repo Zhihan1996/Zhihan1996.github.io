@@ -20,20 +20,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="publications.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="publications.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/publications.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="14" />
+            <state relative-caret-position="138">
+              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="research.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="research.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/research.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="52" column="159" selection-start-line="52" selection-start-column="159" selection-end-line="52" selection-end-column="159" />
+            <state relative-caret-position="569">
+              <caret line="52" column="140" selection-start-line="52" selection-start-column="140" selection-end-line="52" selection-end-column="140" />
             </state>
           </provider>
         </entry>
@@ -59,9 +59,9 @@
       <list>
         <option value="$PROJECT_DIR$/index.jemdoc" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/publications.html" />
         <option value="$PROJECT_DIR$/bio.html" />
         <option value="$PROJECT_DIR$/research.html" />
+        <option value="$PROJECT_DIR$/publications.html" />
       </list>
     </option>
   </component>
@@ -211,17 +211,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publications.html">
+    <entry file="file://$PROJECT_DIR$/research.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="14" />
+        <state relative-caret-position="569">
+          <caret line="52" column="140" selection-start-line="52" selection-start-column="140" selection-end-line="52" selection-end-column="140" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/research.html">
+    <entry file="file://$PROJECT_DIR$/publications.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="52" column="159" selection-start-line="52" selection-start-column="159" selection-end-line="52" selection-end-column="159" />
+        <state relative-caret-position="138">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
     </entry>
