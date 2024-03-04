@@ -20,8 +20,10 @@
               <p style="text-align:center">
                 <name>Zhihan Zhou (周之涵)</name>
               </p>
-              <p>I am Ph.D. student in the <a href="https://www.mccormick.northwestern.edu/computer-science/">Computer Science Department</a> at <a href="https://www.northwestern.edu/">Northwestern University</a>, 
-                advised by Prof. <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/liu-han.html">Han Liu</a>.  I received my Bachelor's Degree in Mathematics at <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>. I was a research intern at AWS AI Labs.
+              <p>I am a 4-th year Ph.D. candidate in the <a href="https://www.mccormick.northwestern.edu/computer-science/">Computer Science Department</a> at <a href="https://www.northwestern.edu/">Northwestern University</a>, 
+                advised by Prof. <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/liu-han.html">Han Liu</a>. 
+                I received my Bachelor's Degree in Mathematics at <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>. 
+                I was a research intern at AWS AI Labs and Snap Research.
               </p>
               <p style="text-align:center">
                 <a href="mailto:zhihanzhou2020@u.northwestern.edu">Email</a> &nbsp/&nbsp
@@ -41,13 +43,126 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                My research focuses on Natural Language Processing (NLP) and Deep Learning (DL). I am especially interested in applying foundation models to solve problem in different areas, including health, conversational AI, and finance. </p>
+                My research focuses on Large Language Models (LLM) and Deep Learning (DL). I am especially interested in building foundation models for varies areas, including genomics, user modeling, and conversational AI. </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+           <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lssr_image'>
+                  <img src='images/dnaberts.png' width="160"></div>
+                <img src='images/dnaberts.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2402.08777">
+                <papertitle>DNABERT-S: Learning Species-Aware DNA Embedding with Genome Foundation Models</papertitle>
+              </a>
+              <br>
+              <strong>Zhihan Zhou</strong>, Weimin Wu, Harrison Ho, Jiayi Wang, Lizhen Shi, Ramana V Davuluri, Zhong Wang, Han Liu
+              <br>
+              <em>Preprint, 2024
+              <br>
+              <a href="data/dnaberts.pdf">paper</a> /
+              <a href="https://github.com/MAGICS-LAB/DNABERT_S">code</a> /
+              <a href="https://huggingface.co/zhihan1996/DNABERT-S">model</a>
+              <p></p>
+              <p>
+                DNABERT-S is a foundation model based on DNABERT-2 specifically designed for generating DNA embedding that naturally clusters and segregates genome of different species in the embedding space.
+              </p>
+            </td>
+          </tr> 
 
           <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lssr_image'>
+                  <img src='images/snap_1.png' width="160"></div>
+                <img src='images/snap_1.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2312.12111">
+                <papertitle>Designing and Evaluating General-Purpose User Representations Based on Behavioral Logs from a Measurement Process Perspective</papertitle>
+              </a>
+              <br>
+              Qixiang Fang*, <strong>Zhihan Zhou*</strong>, Francesco Barbieri, Yozen Liu, Leonardo Neves, Dong Nguyen, Daniel L. Oberski, Maarten W. Bos, Ron Dotsch (*: co-first author)
+              <br>
+              <em>Preprint, 2023
+              <br>
+              <a href="data/snap_1.pdf">paper</a> 
+              <p></p>
+              <p>
+                A Transformer-based model that learns general-purpose user embedding from SnapChat user behavioral logs.
+              </p>
+            </td>
+          </tr> 
+
+
+
+           <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lssr_image'>
+                  <img src='images/guanlin.png' width="160"></div>
+                <img src='images/guanlin.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2306.15006">
+                <papertitle>Efficient Action Robust Reinforcement Learning with Probabilistic Policy Execution Uncertainty</papertitle>
+              </a>
+              <br>
+              Guanlin Liu, <strong>Zhihan Zhou</strong>, Han Liu, Lifeng Lai
+              <br>
+              <em>Preprint, 2023
+              <br>
+              <a href="data/guanlin.pdf">paper</a> 
+              <p></p>
+              <p>
+                A novel approach for solving action robust RL problems with probabilistic policy execution uncertainty.
+              </p>
+            </td>
+          </tr> 
+
+
+          <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='lssr_image'>
@@ -73,7 +188,7 @@
               <br>
               <strong>Zhihan Zhou</strong>, Yanrong Ji, Weijian Li, Pratik Dutta, Ramana Davuluri, Han Liu
               <br>
-              <em>Preprint, 2023
+              <em>ICLR 2024
               <br>
               <a href="data/dnabert2.pdf">paper</a> /
               <a href="https://github.com/Zhihan1996/DNABERT_2">code</a> /
@@ -193,7 +308,7 @@
             </td>
           </tr> 
 
-          <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+          <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='lssr_image'>
