@@ -49,6 +49,43 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
+
+          <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lssr_image'>
+                  <img src='images/snap_2.png' width="160"></div>
+                <img src='images/snap_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2403.13344">
+                <papertitle>USE: Dynamic User Modeling with Stateful Sequence Models</papertitle>
+              </a>
+              <br>
+              <strong>Zhihan Zhou*</strong>, Qixiang Fang*, Leonardo Neves, Yozen Liu, Francesco Barbieri, Han Liu, Maarten W. Bos, Ron Dotsch (*: co-first author)
+              <br>
+              <em>Preprint, 2024
+              <br>
+              <a href="data/snap_2.pdf">paper</a> 
+              <p></p>
+              <p>
+                Seamlessly integrating past and present user behavior sequences for user embedding.
+              </p>
+            </td>
+          </tr> 
+
            <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -108,12 +145,12 @@
 
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2312.12111">
-                <papertitle>Designing and Evaluating General-Purpose User Representations Based on Behavioral Logs from a Measurement Process Perspective</papertitle>
+                <papertitle>General-Purpose User Modeling with Behavioral Logs: A Case Study with Snapchat</papertitle>
               </a>
               <br>
               Qixiang Fang*, <strong>Zhihan Zhou*</strong>, Francesco Barbieri, Yozen Liu, Leonardo Neves, Dong Nguyen, Daniel L. Oberski, Maarten W. Bos, Ron Dotsch (*: co-first author)
               <br>
-              <em>Preprint, 2023
+              <em>SIGIR 2024
               <br>
               <a href="data/snap_1.pdf">paper</a> 
               <p></p>
