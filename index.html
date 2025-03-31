@@ -20,9 +20,9 @@
               <p style="text-align:center">
                 <name>Zhihan Zhou (周之涵)</name>
               </p>
-              <p>I am a final year Ph.D. candidate in the <a href="https://www.mccormick.northwestern.edu/computer-science/">Computer Science Department</a> at <a href="https://www.northwestern.edu/">Northwestern University</a>, 
+              <p>I am a Research Scientist at <a href="https://www.nvidia.com/en-us/" style="color: #76b900;">NVIDIA</a>, working on AI for Genomics. I got my Ph.D. in the Computer Science at <a href="https://www.northwestern.edu/" >Northwestern University</a> in 2025, 
                 advised by Prof. <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/liu-han.html">Han Liu</a>. 
-                I received my Bachelor's Degree in Mathematics at <a href="https://www.zju.edu.cn/english/">Zhejiang University</a> and Master's Degree in Computer Science at <a href="https://www.northwestern.edu/">Northwestern University</a>. 
+                I received my Master in Computer Science at <a href="https://www.northwestern.edu/">Northwestern University</a> and Bachelor in Mathematics at <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>. 
                 I did several research interns at NVIDIA, Amazon, and Snapchat.
               </p>
               <p style="text-align:center">
@@ -49,6 +49,83 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
+
+
+          <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lssr_image'>
+                  <img src='images/go.png' width="160"></div>
+                <img src='images/go.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.biorxiv.org/content/10.1101/2025.01.30.635558v1">
+                <papertitle>GenomeOcean: An Efficient Genome Foundation Model Trained on Large-Scale Metagenomic Assemblies</papertitle>
+              </a>
+              <br>
+              <strong>Zhihan Zhou</strong>, Robert Riley,  Satria Kautsar,  Weimin Wu, Rob Egan, Steven Hofmeyr, Shira Goldhaber-Gordon, Mutian Yu,  Harrison Ho, Fengchen Liu, Feng Chen,  Rachael Morgan-Kiss, Lizhen Shi, Han Liu,  Zhong Wang
+              <br>
+              <em>Preprint, 2025
+              <br>
+              <a href="data/go.pdf">paper</a> /
+              <a href="https://github.com/jgi-genomeocean/genomeocean">code</a> /
+              <a href="https://huggingface.co/pGenomeOcean/GenomeOcean-4B">model</a>
+              <p></p>
+              <p>
+                GenomeOcean is a 4B generative genome foundation model which produces protein-coding genes that respect evolutionary constraints and synthesizes large genomic modules such as biosynthetic gene clusters.
+              </p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lssr_image'>
+                  <img src='images/dnaberts.png' width="160"></div>
+                <img src='images/dnaberts.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2402.08777">
+                <papertitle>DNABERT-S: Learning Species-Aware DNA Embedding with Genome Foundation Models</papertitle>
+              </a>
+              <br>
+              <strong>Zhihan Zhou*</strong>, Weimin Wu*, Harrison Ho, Jiayi Wang, Lizhen Shi, Ramana V Davuluri, Zhong Wang, Han Liu (*: co-first author)
+              <br>
+              <em>ISMB 2025
+              <br>
+              <a href="data/dnaberts.pdf">paper</a> /
+              <a href="https://github.com/MAGICS-LAB/DNABERT_S">code</a> /
+              <a href="https://huggingface.co/zhihan1996/DNABERT-S">model</a>
+              <p></p>
+              <p>
+                DNABERT-S is a foundation model based on DNABERT-2 specifically designed for generating DNA embedding that naturally clusters and segregates genome of different species in the embedding space.
+              </p>
+            </td>
+          </tr> 
 
           <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -86,43 +163,6 @@
             </td>
           </tr> 
 
-           <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='lssr_image'>
-                  <img src='images/dnaberts.png' width="160"></div>
-                <img src='images/dnaberts.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function lssr_start() {
-                  document.getElementById('lssr_image').style.opacity = "1";
-                }
-
-                function lssr_stop() {
-                  document.getElementById('lssr_image').style.opacity = "0";
-                }
-                lssr_stop()
-              </script>
-            </td>
-
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2402.08777">
-                <papertitle>DNABERT-S: Learning Species-Aware DNA Embedding with Genome Foundation Models</papertitle>
-              </a>
-              <br>
-              <strong>Zhihan Zhou*</strong>, Weimin Wu*, Harrison Ho, Jiayi Wang, Lizhen Shi, Ramana V Davuluri, Zhong Wang, Han Liu (*: co-first author)
-              <br>
-              <em>Preprint, 2024
-              <br>
-              <a href="data/dnaberts.pdf">paper</a> /
-              <a href="https://github.com/MAGICS-LAB/DNABERT_S">code</a> /
-              <a href="https://huggingface.co/zhihan1996/DNABERT-S">model</a>
-              <p></p>
-              <p>
-                DNABERT-S is a foundation model based on DNABERT-2 specifically designed for generating DNA embedding that naturally clusters and segregates genome of different species in the embedding space.
-              </p>
-            </td>
-          </tr> 
 
           <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
